@@ -1,0 +1,52 @@
+.mobile-tabs {
+  ul {
+    padding-top: 5px;
+  }
+}
+
+header {
+  nav {
+    justify-content: space-between;
+    padding: 5px 20%;
+    @media screen and (max-width: 1023px) {
+      justify-content: end;
+      padding: 5px 15px;
+    }
+  }
+}
+
+.nav-profile {
+  span {
+    display: block;
+    font-size: 3rem;
+  }
+}
+
+body {
+  background-color: aliceblue;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+textarea {
+  min-height: 50px;
+  resize: vertical;
+  width: 100%;
+  border: 1px solid #000;
+  margin: 5px auto;
+}
+
+form {
+  width: 360px;
+  max-width: 100%;
+}
